@@ -5,13 +5,15 @@ body {
     margin: 0;
 }
 
+/* The below code mainly styles the hero section */
+
 .hero,
 .footer {
     background-color: #1f2937;
 }
 
 .hero {
-    padding: 24px 150px 150px 150px;
+    padding: 24px 150px 150px 150px
 }
 
 .header {
@@ -49,7 +51,9 @@ ul {
 .hero-content {
     display: flex;
     justify-content: space-between;
-    padding-top: 150px;
+    margin-top: 150px;
+    gap: 25px;
+    flex-wrap: wrap-reverse;
 }
 
 .hero-text {
@@ -76,7 +80,7 @@ ul {
     color: #f9faf8;
     font-size: 18px;
     font-weight: 700;
-    padding: 8px 32px;
+    padding: 8px 36px;
     border: none;
 }
 
@@ -97,4 +101,51 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: none;
+}
+
+/* The below code mainly styles the info section*/
+
+.info {
+    /* padding: 50px 250px 100px 250px; I'd like to try centering the items and giving them a size instead.*/ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.info > h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 50px 0 50px 0;
+    padding: 0;
+}
+
+.infoitem-container {
+    display: flex;
+    gap: 50px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    color: #676770;
+    font-size: 18px;
+    text-align: center;
+}
+
+.info-img {
+    flex: none;
+    height: 200px;
+    width: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    margin-bottom: 12px;
+}
+
+.info-txt {
+    max-width: 170px;
 }
