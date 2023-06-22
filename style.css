@@ -149,3 +149,27 @@ ul {
 .info-txt {
     max-width: 170px;
 }
+
+/* The below code styles the quote section*/
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
+    padding: 100px 250px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+.quote-attribution {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: auto;   
+}
