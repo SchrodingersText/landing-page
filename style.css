@@ -13,7 +13,7 @@ body {
 }
 
 .hero {
-    padding: 24px 150px 150px 150px
+    padding: 24px 250px 150px 250px
 }
 
 .header {
@@ -52,7 +52,7 @@ ul {
     display: flex;
     justify-content: space-between;
     margin-top: 150px;
-    gap: 50px;
+    gap: 40px;
     flex-wrap: wrap-reverse;
 }
 
@@ -200,4 +200,14 @@ ul {
 .signup-section .sign-up {
     border: 3px solid #f9faf8;
     white-space: nowrap;
+}
+
+/* The below code styles the footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 36px 0;
 }
