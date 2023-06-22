@@ -88,10 +88,6 @@ ul {
     max-width: fit-content;
 }
 
-.signup-section .sign-up {
-    border: 2px solid #f9faf8;
-}
-
 .img-placeholder {
     width: 550px;
     height: 250px;
@@ -159,7 +155,7 @@ ul {
     justify-content: center;
     align-items: center;
     color: #1f2937;
-    padding: 100px 250px;
+    padding: 100px 350px;
 }
 
 .quote-text {
@@ -172,4 +168,36 @@ ul {
     font-size: 20px;
     font-weight: 700;
     margin-left: auto;   
+}
+
+/* The below code styles the signup section*/
+
+.signup-section {
+    display: flex;
+    padding: 100px 150px;
+    justify-content: center;
+}
+
+.signup-container {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    padding: 50px 150px;
+    border-radius: 8px;
+}
+
+.signup-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.signup-text h3 {
+    color: #f9faf8;
+    margin: 0;
+}
+
+.signup-section .sign-up {
+    border: 3px solid #f9faf8;
+    white-space: nowrap;
 }
